@@ -1,0 +1,111 @@
+.post{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -8px rgba(0, 0, 0, 0.89);
+    border: 1px solid rgb(233, 232, 232);
+    margin: 30px 0;
+
+}
+
+.postwrapper{
+    padding: 10px;
+}
+
+.posttop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posttopleft{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.postprofileimage{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 10px;
+}
+.postuserdate{
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0 10px;
+}
+.postimg{
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+ }
+ .posttopright{
+     margin-top: 15px;
+     font-size: 14px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     color:rgba(87, 87, 87, 0.747)
+ }
+ .right{
+     margin-left: 50px;
+     margin-right: 10px;
+ }
+ .postbottom{
+     display: flex;
+     align-items: center;
+    justify-content: space-between;
+ }
+.postbottomleft{
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.text1{
+    color: slategray;
+    font-size: 17px;
+
+}
+.postbottomright{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.shareit{
+    background: rgb(221, 219, 219);
+    color:rgb(85, 83, 83);
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+@media(max-width:778px){
+ .posttop{
+    display: block;
+ }  
+ .post{
+    width:90% !important;
+ 
+}
+.postwrapper{
+    padding: 00px;
+}
+.views{
+    margin-left: 20px;
+}
+.posttopleft{
+    padding-left: 7px;
+}
+.posttopright{
+    margin-bottom:20px
+}
+.postbottom{
+    padding:0 20px;
+}
+.text{
+    padding: 20px;
+}
+.article{
+    margin-left: 20px;
+}
+}

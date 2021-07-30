@@ -1,0 +1,19 @@
+.contain{
+   /* padding-left: 80px !important; */
+}
+.feed{
+   margin-top:25px;
+   padding-left: 60px;
+   padding-right:60px
+}
+
+@media(max-width:780px){
+   .contain{
+      width: 100% !important;
+   }
+   .feed{
+      padding-left: 40px;
+      padding-right:0px
+   }
+}
+
